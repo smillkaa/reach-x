@@ -1,17 +1,17 @@
 @media only screen and (max-width: 767px) {
-  .header__logo--center-mobile,
-  .header__tagline--center-mobile {
-    text-align: center;
-  }
+    .header__logo--center-mobile,
+    .header__tagline--center-mobile {
+        text-align: center;
+    }
 
-  .header__tagline {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 18px;
-  }
+    .header__tagline {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
 
-  .main {
-    padding-top: 65px;
-    padding-bottom: 80px;
-  }
+    .main {
+        padding-top: 65px;
+        padding-bottom: 80px;
+    }
 }
