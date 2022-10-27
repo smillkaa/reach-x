@@ -10,11 +10,11 @@ font-family: 'D-DIN Exp', sans-serif; */
 
 header img {
     max-width: 160px;
-    filter: invert(100%);
 }
 
 header h2 {
     font-size: 10px;
+    color: black;
 }
 
 main {
@@ -23,7 +23,8 @@ main {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 120%;
-    height: 850px;
+    height: 740px;
+    filter: invert(100%);
 }
 
 .main-content {
@@ -45,66 +46,16 @@ main button:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* arrow animation start */
-
-.center-con {
-position: relative;
-top: 220px;
-left: 20px;
+.hit-your-mark, .gain-insight {
+    display: flex;
+    align-items: center;
+    min-height: 800px;
 }
 
-.round {
-    position: relative;
-    transform: rotate(90deg);
+.hit-your-mark h2, .gain-insight h2 {
+    font-size: 2rem;
 }
 
-.arrow {
-    position: absolute;
-    width: 40px;
-    height: 40px;
+footer li, footer p {
+    font-size: 0.8rem;
 }
-
-.segunda {
-    margin-left: 20px;
-}
-
-.next {
-	background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
-}
-
-@keyframes bounceAlpha {
-  0% {opacity: 1; transform: translateX(0px) scale(1);}
-  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
-  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
-  55% {opacity: 1; transform: translateX(0px) scale(1);}
-}
-
-.bounceAlpha {
-    animation-name: bounceAlpha;
-    animation-duration:1.4s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
-}
-
-.arrow.primera.bounceAlpha {
-    animation-name: bounceAlpha;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
-}
-
-.round .arrow{
-    animation-name: bounceAlpha;
-    animation-duration:1.4s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
-}
-.round .arrow.primera{
-    animation-name: bounceAlpha;
-    animation-duration:1.4s;
-    animation-delay:0.2s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
-}
-/* arrow animation end */
