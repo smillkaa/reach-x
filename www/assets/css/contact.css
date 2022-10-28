@@ -1,0 +1,35 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+main {
+    height: 1000px;
+    margin-bottom: -1px;
+}
+
+header img {
+    filter: invert(100%);
+}
+
+h1 {
+    font-size: 15rem;
+}
+
+h2 {
+    font-size: 3.3rem;
+}
+
+.contact-info, .email, .mail, .email p, .email a, .mail p {
+    background-color: rgb(5, 5, 5);
+}
+
+.contact-info a {
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        max-height: 580px;
+    }
+}
