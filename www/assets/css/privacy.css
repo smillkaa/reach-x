@@ -1,0 +1,17 @@
+main {
+    padding-top: 100px;
+}
+
+.text {
+    max-width: 1000px;
+}
+
+.contact {
+    background-color: rgb(243, 243, 243);
+}
+
+@media screen and (min-width: 768px) {
+    .contact {
+        min-width: 970px;
+    }
+}

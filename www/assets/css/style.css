@@ -16,44 +16,6 @@ header h2 {
     color: black;
 }
 
-main {
-    margin-top: -1px;
-    background-image: url('../images/bg-7.png');
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 120%;
-    height: 740px;
-}
-
-.main-content {
-    min-height: 600px;
-}
-
-h1 {
-    font-weight: 550;
-}
-
-main button {
-    max-width: 200px;
-    background-color: rgba(0, 0, 0, 0);
-    border: white 2px solid;
-    transition: 0.2s;
-}
-
-main button:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.hit-your-mark, .gain-insight {
-    display: flex;
-    align-items: center;
-    min-height: 800px;
-}
-
-.hit-your-mark h2, .gain-insight h2 {
-    font-size: 2rem;
-}
-
 footer li, footer p {
     font-size: 0.8rem;
 }
@@ -66,10 +28,4 @@ footer a {
 
 footer a:hover {
     color: rgb(255, 255, 255);
-}
-
-@media screen and (min-width: 768px) {
-    .hit-your-mark p, .gain-insight p {
-        max-width: 800px;
-    }
 }
