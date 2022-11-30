@@ -7,13 +7,12 @@ font-family: 'D-DIN Exp', sans-serif; */
     font-family: 'D-DIN', sans-serif;
 }
 
-header img {
-    max-width: 160px;
+body {
+    background-color: black;
 }
 
-header h2 {
-    font-size: 10px;
-    color: black;
+.logo {
+    max-width: 160px;
 }
 
 footer li, footer p {
