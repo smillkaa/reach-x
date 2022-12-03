@@ -46,48 +46,60 @@ main button:hover {
 .hit-your-mark, .gain-insight {
     display: flex;
     align-items: center;
-    min-height: 800px;
+    height: 100vh;
 }
 
 .hit-your-mark h2, .gain-insight h2 {
     font-size: 2rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 913px) {
     .hit-your-mark p, .gain-insight p {
         max-width: 800px;
     }
-}
 
-@media screen and (min-width: 768px) {
     .bg {
         display: none;
     }
 
     main {
-        background-image: url('../images/test-pc2-bg.png');
+        background-image: url('../images/reachx-bg-pc.png');
         background-repeat: no-repeat;
         background-position: top;
         background-size: 80%;
-        height: 100vh;
+        height: 80vh;
     }
 
     .main-content {
-        width: 400px;
+        width: 100%;
         height: auto;
-        margin-left:55%;
         position: relative;
-        top:20vw;
+        bottom: 70px;
+        margin-left:55%;
+        top:16vw;
     }
-    
+
     h1 {
         font-weight: 550;
         font-size: 3vw;
     }
 
     main button {
-        max-width: 200px;
-        max-height: 60px;
+        width: 50;
+        height: 7vw;
+        background-color: rgba(0, 0, 0, 0);
+        border: white 2px solid;
+        transition: 0.2s;
+    }
+
+    main button a {
+        font-size: 1.7vw;
+        color: white;
+        text-decoration: none;
+    }
+    
+    main button:hover {
+        background-color: rgba(255, 255, 255, 0.5);
     }
 
 }
