@@ -8,6 +8,10 @@ main {
     margin-bottom: -1px;
 }
 
+.content {
+  display: flex;
+}
+
 h1 {
     font-size: 15rem;
 }
@@ -16,8 +20,16 @@ h2 {
     font-size: 3.3rem;
 }
 
+.intro-text {
+  margin-right: 3rem;
+}
+
+.contact-info {
+  margin-left: 3rem;
+}
+
 .contact-info, .email, .mail, .email p, .email a, .mail p {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(9, 9, 9);
 }
 
 .contact-info a {
@@ -51,3 +63,37 @@ h2 {
       transform: translateX(0%);
     }
   }
+
+@media screen and (max-width: 400px) {
+  h1{
+    font-size: 12rem;
+  }
+
+  h2 {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (max-width: 339px) {
+  h1{
+    font-size: 9rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .content {
+    display: block;
+  }
+  .intro-text {
+    margin-right: 0;
+  }
+  .contact-info {
+    margin-left: 0;
+  }
+  footer {
+    margin-top: 150px;
+  }
+}
