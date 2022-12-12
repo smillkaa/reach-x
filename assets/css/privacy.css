@@ -2,6 +2,10 @@ main {
     padding-top: 100px;
 }
 
+header {
+    background-color: black;
+}
+
 .text {
     max-width: 1000px;
 }
