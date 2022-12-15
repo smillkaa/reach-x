@@ -6,7 +6,9 @@ A full website and logo re-design for Reach X marketing company.
 ## Before Re-design
 ![](assets/images/reach-x-ss.png)
 
-## Re-designed website
+## Re-designed website [(LINK)](https://smillkaa.github.io/reach-x/)
+
+
 ![](assets/images/reach-x-ss-2.jpg)
 
 ## Instructions for Re-desgin
