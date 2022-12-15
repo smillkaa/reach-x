@@ -47,8 +47,8 @@ h1 {
     color: rgb(255, 255, 255);
     font-weight: bolder;
     letter-spacing: 1px;
-    background-color: rgb(77, 77, 90);
-    border: rgb(114, 114, 146) 2px solid;
+    background-color: rgb(37, 37, 37);
+    border: rgb(37, 37, 37) 2px solid;
     transition: 0.3s;
 }
 
